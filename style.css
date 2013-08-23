@@ -38,6 +38,19 @@ ul {
 li {
   float: left;
   width:  33%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 200%
+}
+
+li:hover {
+  background: #00ffa2;
+}
+
+#navigatie a {
+  text-decoration: none;
 }
 
 .menu {
