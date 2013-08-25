@@ -1,28 +1,25 @@
 body {
   font-family: Helvetica, Arial;
-
+  margin: 0 auto;
   width: 960px;
-  background: #fdf url(background.jpg);
+  background: #fdf url(background.jpg) 0% 0 no-repeat;
 }
 
 h1 {
   color: #00ffa2;
   font-weight: bold;
   margin: 0;
-  margin-left: 40px;
   margin-top: 50px;
 }
 
 h2 {
   font-style: italic;
   color: #9cfcd9;
-  margin-left: 40px;
 }
 
 p {
   font-weight: lighter;
   text-align: justify;
-  margin-left: 40px;
 }
 
 a {
@@ -53,11 +50,7 @@ li {
 }
 
 li:hover {
-  background: #00ffa2;
-}
-
-#navigatie a {
-  text-decoration: none;
+  background: #9cfcd9;
 }
 
 .menu {
@@ -79,6 +72,6 @@ li:hover {
 
 .tekst {
   float: left;
-  width: 440px;
+  width: 400px;
 }
 
