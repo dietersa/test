@@ -64,6 +64,10 @@ li:hover {
   height: 50px;
 }
 
+.menutext {
+  text-decoration: none;
+}
+
 .plaatje {
   float: right;
   margin-right: 100px;
