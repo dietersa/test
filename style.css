@@ -16,7 +16,8 @@ body {
   height: auto;
   margin: auto;
   text-align: left;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  overflow: auto;
 }
 
 h1 {
@@ -98,12 +99,10 @@ li:hover {
 .tekst {
   float: left;
   width: 400px;
-  padding-bottom: 150px;
 }
 
 .content {
   width: 960px;
-  height: auto;
 }
 
 .fotosons {
@@ -149,23 +148,22 @@ li:hover {
 .tekst2 {
   float: left;
   width: 400px;
-  padding-bottom: 150px;
+}
+
+.vulling {
+  height: 150px;
+  width: 960px;
 }
 
 .footer {
   margin: 0 auto;
   height: 50px;
-  border-top: 1px solid #00ffa2;
-  float: center;
-  text-align: center;
   width: 800px;
-  position: relative;
+  border-top: 1px solid #00ffa2;
 }
 
-.contentfooter {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.contentfooter p{
+  text-align: center;
 }
 
 
