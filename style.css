@@ -1,8 +1,22 @@
 body {
   font-family: Helvetica, Arial;
-  margin: 0 auto;
+  margin: 0;
+  background: url(background.jpg);
+  background-size: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 200px;
+  height: 100px;
+}
+
+#contentContainer {
   width: 960px;
-  background: #fdf url(background.jpg) 0% 0 no-repeat;
+  height: auto;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -57,56 +71,100 @@ li:hover {
   height: 50px;
 }
 
-.menutext {
+.menutext a {
+  display: block;
+  width: 100%;
+  height: 100%;
   text-decoration: none;
 }
 
-.under {
-  position: fixed;
-  margin-left: 80px;
-  bottom: 0px;
-  width: 800px;
-  border-style: solid none none none;
-  border-width: 1px;
-  border-color: #00ffa2;
-  text-align: center;
+.menutext li:hover a {
+  color: #ffffff;
 }
 
 .plaatje {
-  position: absolute;
-  margin-right: 100px;
-  margin-left: 500px
+  float: right;
+  width: 400px;
+  height: 500px;
 }
 
 .plaatje img {
-  margin-top: 100px;
+  width: 350px;
+  height: 350px;
+  padding-top: 150px;
 }
 
 .tekst {
   float: left;
   width: 400px;
+  padding-bottom: 150px;
+}
+
+.content {
+  width: 960px;
+  height: auto;
+}
+
+.fotosons {
+  width: 400px;
+  height: 600px;
+  float: right;
+}
+
+.fotoarjan {
+  width: 200px;
+  height: 75px;
+}
+
+.fotoarjan img {
+  height: 75px;
+  width: 75px;
+  padding-top: 450px;
+}
+
+.fotomartijn {
+  width: 200px;
+  height: 75px;
+}
+
+.fotomartijn img {
+  height: 75px;
+  width: 75px;
+  padding-top: 150px;
+}
+
+.map {
+ float: right;
+ width: 400px;
+ height: 400px;
+}
+
+.map img {
+  width: 400px;
+  height: 400px;
+  padding-top: 100px;
 }
 
 .tekst2 {
   float: left;
   width: 400px;
-  margin-bottom: 150px
+  padding-bottom: 150px;
 }
 
-.fotoarjan {
-  margin-top: 530px;
-  margin-left: 500px;
-  position: absolute;
+.footer {
+  margin: 0 auto;
+  height: 50px;
+  border-top: 1px solid #00ffa2;
+  float: center;
+  text-align: center;
+  width: 800px;
+  position: relative;
 }
 
-.fotomartijn {
+.contentfooter {
   position: absolute;
-  margin-top: 150px;
-  margin-left: 500px;
+  bottom: 0;
+  left: 0;
 }
 
-.map {
-  position: absolute;
-  margin-top: 300px;
-  margin-left: 500px;
-}
+
